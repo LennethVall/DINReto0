@@ -29,7 +29,7 @@ public class Usuario implements Serializable {
     private String idEmpl;
     private String tlfn;
     private String puesto;
-    private String idSuperior;
+    private String idSuperior; 
 
     /**
      * Constructor por defecto.
@@ -258,8 +258,8 @@ public class Usuario implements Serializable {
                 ", email='" + email + '\'' +
                 ", dni='" + dni + '\'' +
                 ", idEmpl='" + idEmpl + '\'' +
-                ", idEmpl='" + puesto + '\'' +
-                ", idEmpl='" + idSuperior + '\'' +
+                ", puesto='" + puesto + '\'' +
+                ", idSuperior='" + idSuperior + '\'' +
                 '}';
     }
 }

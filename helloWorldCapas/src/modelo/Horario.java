@@ -3,7 +3,7 @@ package modelo;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalTime;
-
+import java.util.Objects;
 
 /**
  * Representa la asignación horaria y de turno de un empleado dentro del modelo.

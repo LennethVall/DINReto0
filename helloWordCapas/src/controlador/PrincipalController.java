@@ -108,7 +108,7 @@ public class PrincipalController {
         txtEmail.setText(usuarioActual.getEmail());
     }
 
-    // --- LÓGICA DEL CALENDARIO ---
+    //  CALENDARIO
 
     @FXML
     private void mostrarHorario() {

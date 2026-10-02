@@ -15,7 +15,7 @@ import modelo.Usuario;
 
 /**
  * Implementación de la interfaz DAO para la persistencia en Base de Datos MySQL (WorkApp).
- * Incluye un mecanismo de fallback para desarrollo sin driver/BD activa.
+ * Incluye un mecanismo de prueva para desarrollo sin driver/BD activa.
  * 
  * @author Inés Carrasco
  * @version 1.2

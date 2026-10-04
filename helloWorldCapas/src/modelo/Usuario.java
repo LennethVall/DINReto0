@@ -1,12 +1,14 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java
  */
 
 package modelo;
 
 import java.io.Serializable;
-
 
 /**
  * Clase que representa la entidad Usuario en el modelo de la aplicación.
@@ -29,6 +31,7 @@ public class Usuario implements Serializable {
     private String idEmpl;
     private String tlfn;
     private String puesto;
+    private String rol;
     private String idSuperior; 
 
     /**
@@ -50,10 +53,10 @@ public class Usuario implements Serializable {
      * @param idEmpl    Identificación de usuario/empleado.
      * @param tlfn      Teléfono de contacto del usuario.
      * @param puesto    Puesto en el que le toca trabajar al usuario.
-     * @param idSuperior   emplado de rango superior.
+     * @param rol       Rol asignado al usuario.
+     * @param idSuperior Empleado de rango superior.
      */
-    public Usuario(String login, String password, String nombre, String apellido, 
-                   String email, String dni, String direccion, String idEmpl, String tlfn, String puesto, String idSuperior) {
+    public Usuario(String login, String password, String nombre, String apellido, String email, String dni, String direccion, String idEmpl, String tlfn, String puesto, String rol, String idSuperior) {
         this.login = login;
         this.password = password;
         this.nombre = nombre;
@@ -64,6 +67,7 @@ public class Usuario implements Serializable {
         this.idEmpl = idEmpl;
         this.tlfn = tlfn;
         this.puesto = puesto;
+        this.rol = rol;
         this.idSuperior = idSuperior;
     }
 
@@ -212,20 +216,41 @@ public class Usuario implements Serializable {
     public void setTlfn(String tlfn) {
         this.tlfn = tlfn;
     }
+    
     /**
      * Obtiene el puesto del usuario.
      * @return El puesto a asignar.
      */
-   public String getPuesto() { 
-       return puesto; 
-   }
-   /**
+    public String getPuesto() { 
+        return puesto; 
+    }
+    
+    /**
      * Establece el puesto del usuario.
      * @param puesto El puesto a asignar.
      */
     public void setPuesto(String puesto) {
         this.puesto = puesto; 
     }
+    
+    /**
+     * Obtiene el rol asignado al usuario.
+     *
+     * @return El rol del usuario.
+     */
+    public String getRol() {
+        return rol;
+    }
+
+    /**
+     * Establece el rol del usuario.
+     *
+     * @param rol El rol a asignar.
+     */
+    public void setRol(String rol) {
+        this.rol = rol;
+    }
+    
     /**
      * Obtiene el empleado superior del usuario.
      * @return El empleado superior a asignar.
@@ -233,6 +258,7 @@ public class Usuario implements Serializable {
     public String getIdSuperior() {
         return idSuperior; 
     }
+    
     /**
      * Establece el empleado duperior del usuario.
      * @param idSuperior El empleado superior a asignar.
@@ -259,6 +285,7 @@ public class Usuario implements Serializable {
                 ", dni='" + dni + '\'' +
                 ", idEmpl='" + idEmpl + '\'' +
                 ", puesto='" + puesto + '\'' +
+                ", rol='" + rol + '\'' +
                 ", idSuperior='" + idSuperior + '\'' +
                 '}';
     }

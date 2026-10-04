@@ -14,9 +14,7 @@ import java.time.LocalTime;
  */
 public class Horario implements Serializable {
 
-    
     private static final long serialVersionUID = 1L;
-
     
     private int idHorario;
     private String idEmpl;

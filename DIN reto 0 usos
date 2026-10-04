@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="88n_f6_COOMomLO4OwUs">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Jefe" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-16" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerentte" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-17" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="encargado" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-18" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="empleado&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Ver datos propios" vertex="1">
+          <mxGeometry height="30" width="240" x="350" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Editar algunos datos personales propios" vertex="1">
+          <mxGeometry height="30" width="240" x="350" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="consultar horarios&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="240" x="350" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="consulta horarios emcargado subordinado" vertex="1">
+          <mxGeometry height="42" width="240" x="360" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Editar horarios encargado" vertex="1">
+          <mxGeometry height="30" width="240" x="350" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="consulta empleado subordinado" vertex="1">
+          <mxGeometry height="30" width="240" x="350" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ver empleados del encargado subordinado" vertex="1">
+          <mxGeometry height="42" width="240" x="350" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-27" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-57" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.937;exitY=0.827;exitDx=0;exitDy=0;exitPerimeter=0;" target="teXzA5cCfF4EK8V-ESRR-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="670" as="sourcePoint" />
+            <mxPoint x="440" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-28" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-57" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="teXzA5cCfF4EK8V-ESRR-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="620" as="sourcePoint" />
+            <mxPoint x="497" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-29" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-57" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="teXzA5cCfF4EK8V-ESRR-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="590" as="sourcePoint" />
+            <mxPoint x="477" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="teXzA5cCfF4EK8V-ESRR-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="497" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="teXzA5cCfF4EK8V-ESRR-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="300" as="sourcePoint" />
+            <mxPoint x="487" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-32" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="teXzA5cCfF4EK8V-ESRR-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="320" as="sourcePoint" />
+            <mxPoint x="497" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="teXzA5cCfF4EK8V-ESRR-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="340" as="sourcePoint" />
+            <mxPoint x="517" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-34" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Enviar notificacion" vertex="1">
+          <mxGeometry height="80" width="120" x="660" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-36" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-34" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.583;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.942;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" target="teXzA5cCfF4EK8V-ESRR-20" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="706" y="250" as="sourcePoint" />
+            <mxPoint x="590" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-37" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-34" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="teXzA5cCfF4EK8V-ESRR-14" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="806" y="590" as="sourcePoint" />
+            <mxPoint x="690" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Editar horarios empleado subordinado" vertex="1">
+          <mxGeometry height="42" width="240" x="350" y="419" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-40" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="teXzA5cCfF4EK8V-ESRR-39" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-41" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-34" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.043;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="teXzA5cCfF4EK8V-ESRR-39" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="410" as="sourcePoint" />
+            <mxPoint x="594" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Editar horarios gerente" vertex="1">
+          <mxGeometry height="30" width="240" x="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-44" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="teXzA5cCfF4EK8V-ESRR-43" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="290" as="sourcePoint" />
+            <mxPoint x="360" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-45" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-34" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="teXzA5cCfF4EK8V-ESRR-43" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="410" as="sourcePoint" />
+            <mxPoint x="600" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-47" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="consultar empleado superior" vertex="1">
+          <mxGeometry height="30" width="240" x="350" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-48" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-57" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.637;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" target="teXzA5cCfF4EK8V-ESRR-47" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="720" as="sourcePoint" />
+            <mxPoint x="427" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-49" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="consultar horarios empleado subordinado" vertex="1">
+          <mxGeometry height="42" width="240" x="350" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-50" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-3" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="teXzA5cCfF4EK8V-ESRR-49" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-54" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="consultar horarios gerente" vertex="1">
+          <mxGeometry height="30" width="240" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-55" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="teXzA5cCfF4EK8V-ESRR-54" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="140" as="sourcePoint" />
+            <mxPoint x="360" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-57" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Iniciar sesion" vertex="1">
+          <mxGeometry height="30" width="120" x="180" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="teXzA5cCfF4EK8V-ESRR-58" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="teXzA5cCfF4EK8V-ESRR-57" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="710" as="sourcePoint" />
+            <mxPoint x="440" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JYKtdKHPWu9boSOeFuWb-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="cerrar sesion" vertex="1">
+          <mxGeometry height="30" width="240" x="350" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="JYKtdKHPWu9boSOeFuWb-2" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-4" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JYKtdKHPWu9boSOeFuWb-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="266" y="672" as="sourcePoint" />
+            <mxPoint x="360" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JYKtdKHPWu9boSOeFuWb-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="consulta algunos datos jefe" vertex="1">
+          <mxGeometry height="30" width="240" x="340" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JYKtdKHPWu9boSOeFuWb-4" edge="1" parent="1" source="teXzA5cCfF4EK8V-ESRR-2" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" target="JYKtdKHPWu9boSOeFuWb-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="170" as="sourcePoint" />
+            <mxPoint x="350" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

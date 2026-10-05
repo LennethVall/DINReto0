@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" prefHeight="850.0" prefWidth="900.0" spacing="10.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.PrincipalController">
+    <padding>
+        <Insets bottom="25.0" left="30.0" right="30.0" top="25.0" />
+    </padding>
+    <Label text="WORKAPP">
+        <font>
+            <Font name="System Bold" size="26.0" />
+        </font>
+    </Label>
+    <Label fx:id="lblBienvenida" text="Bienvenido" />
+    <Label fx:id="lblRol" text="Rol" />
+    <Label fx:id="lblPuesto" text="Puesto" />
+    <Label fx:id="lblSuperior" text="Superior" />
+    <Label fx:id="lblHorario" text="Horario" />
+    <Label text="MIS DATOS">
+        <font>
+            <Font name="System Bold" size="18.0" />
+        </font>
+    </Label>
+    <Label text="Correo electrónico" />
+    <TextField fx:id="txtEmail" maxWidth="350.0" />
+    <Label text="Teléfono" />
+    <TextField fx:id="txtTelefono" maxWidth="350.0" />
+    <Label text="Contraseña" />
+    <PasswordField fx:id="txtPassword" maxWidth="350.0" />
+    <Button onAction="#guardarDatosPropios" text="Guardar mis datos" />
+    <Label fx:id="lblAcciones" text="Acciones disponibles" />
+    <Label fx:id="lblSubordinadosTitulo" managed="false" text="GESTIÓN DE SUBORDINADOS" visible="false">
+        <font>
+            <Font name="System Bold" size="18.0" />
+        </font>
+    </Label>
+    <Button fx:id="btnSubordinados" managed="false" onAction="#verSubordinados" text="Ver subordinados" visible="false" />
+    <ListView fx:id="listaSubordinados" managed="false" prefHeight="100.0" prefWidth="450.0" visible="false" />
+    <Label fx:id="lblEditarHorario" managed="false" text="EDITAR HORARIO DEL SUBORDINADO" visible="false">
+        <font>
+            <Font name="System Bold" size="18.0" />
+        </font>
+    </Label>
+    <Label fx:id="lblSubordinadoSeleccionado" managed="false" text="" visible="false" />
+    <Label fx:id="lblHorarioSeleccionado" managed="false" text="" visible="false" />
+    <HBox fx:id="panelHorario" managed="false" spacing="10" visible="false">
+        <VBox spacing="5">
+            <Label text="Fecha" />
+            <DatePicker fx:id="dateHorario" />
+        </VBox>
+        <VBox spacing="5">
+            <Label text="Hora inicio" />
+            <TextField fx:id="txtHoraInicio" prefWidth="100" />
+        </VBox>
+        <VBox spacing="5">
+            <Label text="Hora fin" />
+            <TextField fx:id="txtHoraFin" prefWidth="100" />
+        </VBox>
+        <VBox spacing="5">
+            <Label text="Turno" />
+            <ComboBox fx:id="comboTurno" prefWidth="120" />
+        </VBox>
+    </HBox>
+    <Button fx:id="btnGuardarHorario" managed="false" onAction="#guardarHorario" text="Guardar horario" visible="false" />
+    <Button onAction="#cerrarSesion" text="Cerrar sesión" />
+</VBox>
